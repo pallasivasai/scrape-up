@@ -733,3 +733,25 @@ boxoffice = imdb.BoxOffice()
 | Methods         | Details                                                                         |
 | --------------- | ------------------------------------------------------------------------------- |
 | `.top_movies()` | Returns the top box office movies, weekend and total gross, and weeks released. |
+
+
+### AddressBook
+
+```python
+from address_book import AddressBook
+```
+
+Create an instance of `AddressBook` class
+
+```python
+book = AddressBook()
+```
+
+| Method                         | Details                                                                                           |
+| -----------------------------  | ------------------------------------------------------------------------------------------------- |
+| `add_contact(name, phone, email)` | Adds a new contact with the provided name, phone, and email.                                      |
+| `delete_contact(name)`         | Deletes the contact with the provided name.                                                        |
+| `update_contact(name, phone, email)` | Updates the contact details for the provided name.                                                |
+| `get_contact(name)`            | Retrieves the contact details for the provided name.                                               |
+| `list_contacts()`              | Returns a list of all contacts in the address book.                                                |
+---
